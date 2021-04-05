@@ -12,10 +12,10 @@ const Navbar = () => {
   return (
     <AppBar color="secondary" position="static" className={classes.navbar}>
 
-    <Grid container justify="space-around" className={classes.list}>
-      <Grid item>
+      <div className={classes.logoBox}>
         <img src={logo} className={classes.logo} />
-      </Grid>
+      </div>
+    <Grid container justify="space-around" className={classes.list}>
 
       <Grid item >
         <Typography className={classes.links}>Home</Typography>
