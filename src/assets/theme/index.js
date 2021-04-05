@@ -9,6 +9,6 @@ export const theme = createMuiTheme({
         },
         secondary:{
             main: '#294057',
-        }
+        },
     }
-})
+});

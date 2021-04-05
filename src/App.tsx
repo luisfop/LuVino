@@ -1,13 +1,19 @@
-import React from 'react';
-import { Button } from '@material-ui/core';
+import React from "react";
+import { Container } from "@material-ui/core";
 
-import './App.css';
+
+import Navbar from './components/navbar/index';
+
+import "./App.css";
 
 function App() {
   return (
-   <div>
-     <Button color="secondary" variant="contained"> CLICK ME !</Button>
-     </div>
+    <>
+      <Navbar />
+      <Container maxWidth="lg">
+        <h1>Container</h1>
+      </Container>
+    </>
   );
 }
 
